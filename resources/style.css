@@ -1,0 +1,35 @@
+.html{
+    font-family: "Helvetica, sans-serif";
+    font-size: 18px;
+}
+.body{
+    font-family: "Helvetica";
+    font-size: 18px;
+}
+
+div{
+    display: block;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: "Helvetica";
+    font-weight: bold;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    padding: 12px 0 12px 0.5rem;
+}
+
+span{
+    margin: 0.66rem 1rem;
+}
