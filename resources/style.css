@@ -58,9 +58,24 @@ span{
 
 h1,h4{
     font-weight: bold;
-    font-family: "Helvetica"
+    font-family: "Helvetica";
 }
 
 h4{
     display: block;
+}
+
+nav{
+    background-color: firebrick;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    font-family: "Helvetica";
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0;
 }
